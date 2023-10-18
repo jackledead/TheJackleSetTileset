@@ -1,0 +1,229 @@
+Done:
+
+Todo for Good1:
+8 9 10 18 19 27(sand?) are dirt
+7+26 is flowers
+1 is water
+11 12 13 14 15 are carpet 
+16 17 38 39(asphalt only) are road asphalt marking "road", "generic_road", generic_mall_road
+20 is kitchen tile
+21 thru 24 are carpet
+25 is concrete bricks
+28 bricks
+29 concrete tile
+30 window
+31 32 40 41 wood planks
+33 snow or white carpet
+42 garage door
+43 gray tile concrete
+45 46 more wood planks
+47 metal
+
+Todo goodT1:
+1 weeds
+2345 blood
+5 pulped corpse corpse_bloody corpse
+6 boulder
+789 small rock
+10 medium rock
+11 shrub t_shrub done
+12 spec ops
+13 glock firearm glock_17 done
+14 bottle
+15 tv
+16 pc monitor
+17 - 20 cabintets and shelves f_entertainment_center f_rack_wood
+21 22 barrell wooden_barrel
+23 24 flashlights heavy_flashlight heavy_flashlight_on flashlight_on flashlight
+
+Tall1
+1 infected zombie
+2 male model
+3 female model
+{ "id": "npc_female", "fg": 9234, "bg": 9556 },
+        { "id": "npc_male", "fg": 9235, "bg": 9556 },
+        { "id": "player_female", "fg": 9236, "bg": 9556 },
+        { "id": "player_male", "fg": 9237, "bg": 9556 },
+       
+
+UglyT1
+7-10 dogs
+1 lantern electric_lantern_on electric_lantern atomic_lamp atomic_lamp_off
+2 blood
+3 mutant zombie
+4 female zombie (swimmer)
+5 wheel
+6 tool
+
+
+
+
+{ "id": "bg_grass", "fg": 9538, "rotates": false },
+{
+      "file": "fallback.png",
+      "tiles": [  ],
+      "ascii": [
+        { "offset": 0, "bold": false, "color": "BLACK" },
+        { "offset": 256, "bold": true, "color": "WHITE" },
+        { "offset": 512, "bold": false, "color": "WHITE" },
+        { "offset": 768, "bold": true, "color": "BLACK" },
+        { "offset": 1024, "bold": false, "color": "RED" },
+        { "offset": 1280, "bold": false, "color": "GREEN" },
+        { "offset": 1536, "bold": false, "color": "BLUE" },
+        { "offset": 1792, "bold": false, "color": "CYAN" },
+        { "offset": 2048, "bold": false, "color": "MAGENTA" },
+        { "offset": 2304, "bold": false, "color": "YELLOW" },
+        { "offset": 2560, "bold": true, "color": "RED" },
+        { "offset": 2816, "bold": true, "color": "GREEN" },
+        { "offset": 3072, "bold": true, "color": "BLUE" },
+        { "offset": 3328, "bold": true, "color": "CYAN" },
+        { "offset": 3584, "bold": true, "color": "MAGENTA" },
+        { "offset": 3840, "bold": true, "color": "YELLOW" }
+      ]
+    }
+
+
+
+syntaxes
+{
+          "id": [ "road", "generic_road", "generic_mall_road", "generic_necropolis_road", "robofachq_surface_parking" ],
+          "fg": 10283,
+          "multitile": true,
+          "additional_tiles": [
+            { "id": "center", "fg": 10284 },
+            { "id": "corner", "fg": [ 10285, 10286, 10287, 10288 ] },
+            { "id": "t_connection", "fg": [ 10295, 10296, 10297, 10298 ] },
+            { "id": "edge", "fg": [ 10289, 10290 ] },
+            { "id": "end_piece", "fg": [ 10291, 10292, 10293, 10294 ] },
+            { "id": "unconnected", "fg": 10283 }
+          ]
+        },
+		
+		
+{
+          "id": [
+            "20ronson762",
+            "30ronson762",
+            "40ronson762",
+            "50ronson762",
+            "60ronson762",
+            "100za",
+            "120za",
+            "140za",
+            "15rancor762",
+            "20rancor762",
+            "25rancor762",
+            "45ria762",
+            "2x45ria762",
+            "80ria762",
+            "100ria762",
+            "2x80ria762",
+            "120ria762",
+            "5ria3006",
+            "8ria3006",
+            "12ria3006",
+            "15ria3006",
+            "stripper18mag",
+            "stripper18belt"
+          ],
+          "fg": 10969
+        },
+		
+		
+{
+          "id": "mon_zombie",
+          "fg": [
+            { "weight": 3, "sprite": 8514 },
+            { "weight": 3, "sprite": 8525 },
+            { "weight": 3, "sprite": 8536 },
+            { "weight": 3, "sprite": 8543 },
+            { "weight": 3, "sprite": 8544 },
+            { "weight": 3, "sprite": 8545 },
+            { "weight": 3, "sprite": 8546 },
+            { "weight": 3, "sprite": 8547 },
+            { "weight": 3, "sprite": 8548 },
+            { "weight": 3, "sprite": 8515 },
+            { "weight": 3, "sprite": 8516 },
+            { "weight": 1, "sprite": 8517 },
+            { "weight": 1, "sprite": 8518 },
+            { "weight": 3, "sprite": 8519 },
+            { "weight": 3, "sprite": 8520 },
+            { "weight": 3, "sprite": 8521 },
+            { "weight": 3, "sprite": 8522 },
+            { "weight": 3, "sprite": 8523 },
+            { "weight": 3, "sprite": 8524 },
+            { "weight": 3, "sprite": 8526 },
+            { "weight": 3, "sprite": 8527 },
+            { "weight": 3, "sprite": 8528 },
+            { "weight": 3, "sprite": 8529 },
+            { "weight": 3, "sprite": 8530 },
+            { "weight": 3, "sprite": 8531 },
+            { "weight": 3, "sprite": 8532 },
+            { "weight": 3, "sprite": 8533 },
+            { "weight": 3, "sprite": 8534 },
+            { "weight": 3, "sprite": 8535 },
+            { "weight": 3, "sprite": 8537 },
+            { "weight": 3, "sprite": 8538 },
+            { "weight": 3, "sprite": 8539 },
+            { "weight": 3, "sprite": 8540 },
+            { "weight": 3, "sprite": 8541 },
+            { "weight": 3, "sprite": 8542 }
+          ],
+          "bg": 9556,
+          "rotates": false
+        },
+		
+		
+{
+      "file": "huge.png",
+      "//": "range 19984 to 19999",
+      "sprite_width": 160,
+      "sprite_height": 128,
+      "sprite_offset_x": -48,
+      "sprite_offset_y": -48,
+      "tiles": [
+        { "id": "mon_dragon_dummy", "fg": 19984, "rotates": false },
+        {
+          "id": "mon_exodii_quad",
+          "fg": [ { "weight": 111, "sprite": 19985 }, { "weight": 111, "sprite": 19986 } ],
+          "rotates": false
+        },
+        { "id": "mon_halloween_dragon", "fg": 19987, "rotates": false }
+      ]
+	  
+	  
+	  
+coprses
+
+{ "id": "corpse", "fg": 3800, "rotates": false },
+        { "id": "overlay_wielded_corpse", "fg": 3801, "rotates": false },
+        { "id": "corpse_bloody", "fg": 3802, "rotates": false },
+        { "id": "overlay_wielded_corpse_bloody", "fg": 3802, "rotates": false },
+        { "id": "corpse_child_calm", "fg": 3803, "rotates": false },
+        { "id": "overlay_wielded_corpse_child_calm", "fg": 3803, "rotates": false },
+        { "id": "corpse_child_gunned", "fg": 3804, "rotates": false },
+        { "id": "overlay_wielded_corpse_child_gunned", "fg": 3804, "rotates": false },
+        { "id": "corpse_generic_boy", "fg": 3805, "rotates": false },
+        { "id": "overlay_wielded_corpse_generic_boy", "fg": 3805, "rotates": false },
+        { "id": "corpse_generic_female", "fg": 3806, "rotates": false },
+        { "id": "overlay_wielded_corpse_generic_female", "fg": 3806, "rotates": false },
+        { "id": "corpse_generic_girl", "fg": 3807, "rotates": false },
+        { "id": "overlay_wielded_corpse_generic_girl", "fg": 3807, "rotates": false },
+        { "id": "corpse_generic_human", "fg": 3808, "rotates": false },
+        { "id": "overlay_wielded_corpse_generic_human", "fg": 3808, "rotates": false },
+        { "id": "corpse_generic_male", "fg": 3809, "rotates": false },
+        { "id": "overlay_wielded_corpse_generic_male", "fg": 3809, "rotates": false },
+        { "id": "corpse_gunned", "fg": 3810, "rotates": false },
+        { "id": "overlay_wielded_corpse_gunned", "fg": 3810, "rotates": false },
+        { "id": "corpse_half_beheaded", "fg": 3811, "rotates": false },
+        { "id": "overlay_wielded_corpse_half_beheaded", "fg": 3811, "rotates": false },
+        { "id": "corpse_halved_upper", "fg": 3812, "rotates": false },
+        { "id": "overlay_wielded_corpse_halved_upper", "fg": 3812, "rotates": false },
+        { "id": "corpse_oldwoman_jewelry", "fg": 3813, "rotates": false },
+        { "id": "overlay_wielded_corpse_oldwoman_jewelry", "fg": 3813, "rotates": false },
+        { "id": "corpse_painful", "fg": 3814, "rotates": false },
+        { "id": "overlay_wielded_corpse_painful", "fg": 3814, "rotates": false },
+        { "id": "corpse_scorched", "fg": 3815, "rotates": false },
+        { "id": "overlay_wielded_corpse_scorched", "fg": 3815, "rotates": false },
+        { "id": "corpse_stabbed", "fg": 3816, "rotates": false },
+        { "id": "overlay_wielded_corpse_stabbed", "fg": 3816, "rotates": false },

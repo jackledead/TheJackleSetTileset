@@ -1,0 +1,130 @@
+{
+  "tile_info": [
+    { "pixelscale": 1, "width": 128, "height": 128, "iso": false, "retract_dist_min": -1.0, "retract_dist_max": 1.0 }
+  ],
+  "tiles-new": [
+    {
+      "file": "normal128px.PNG",
+      "//": "range 0 to 80 5x18",
+      "tiles": [
+        { "id": [ "t_wall" ], "fg": 58, "rotates": false },
+        { "id": [ "t_water_dp", "t_swater_dp", "t_water_sh", "t_swater_sh" ], "fg": 29, "rotates": false },
+        {
+          "id": [ "t_brick_wall", "t_secretdoor_brick_wall_c", "t_sliding_brick_wall_c" ],
+          "fg": 51,
+          "rotates": false
+        },
+        { "id": [ "t_linoleum_white_no_roof", "t_linoleum_white", "t_linoleum_gray", "t_linoleum_gray_no_roof" ], "fg": 41, "rotates": false },
+        {
+          "id": [ "t_grass" ],
+          "fg": [ { "weight": 1, "sprite": 42 }, { "weight": 1, "sprite": 62 }, { "weight": 1, "sprite": 66 } ],
+          "//done": "done",
+          "rotates": false
+        },
+        { "id": [ "t_grass_tall" ], "fg": 74, "rotates": false },
+        { "id": [ "t_grass_long" ], "fg": 54, "rotates": false },
+        { "id": [ "t_grass_dead" ], "fg": [ { "weight": 1, "sprite": 30 }, { "weight": 3, "sprite": 61 } ] },
+        { "id": [ "f_dandelion" ], "fg": 49 },
+        { "id": [ "t_forestfloor" ], "fg": [ { "weight": 1, "sprite": 75 }, { "weight": 4, "sprite": 79 } ] },
+        { "id": [ "t_floor_noroof" ], "fg": 57, "rotates": false },
+        { "id": [ "t_floor" ], "fg": 55, "rotates": false },
+        { "id": [ "t_window_boarded" ], "fg": 72, "rotates": false },
+        { "id": [ "t_carpet_base" ], "fg": 33, "rotates": false },
+        { "id": [ "t_carpet_green" ], "fg": 60, "rotates": false },
+        { "id": [ "t_carpet_purple" ], "fg": 36, "rotates": false },
+        { "id": [ "t_carpet_yellow" ], "fg": 35, "rotates": false },
+        { "id": [ "t_sidewalk" ], "fg": 70 },
+        { "id": [ "t_pavement" ], "fg": 39 },
+        { "id": [ "t_pavement_y" ], "fg": 38 },
+        { "id": [ "t_concrete_y" ], "fg": 62 },
+        { "id": [ "t_concrete" ], "fg": 64 },
+        { "id": "t_window_frame", "fg": 0, "rotates": false },
+        { "id": [ "t_window", "t_window_alarm" ], "fg": 53, "rotates": false },
+        { "id": "t_retractable_gate_o", "fg": 0 },
+        { "id": "t_retractable_gate_c", "fg": 69 },
+        { "id": "t_retractable_gate_l", "fg": 69 },
+        {
+          "id": [ "f_rack_wood" ],
+          "fg": [ { "weight": 1, "sprite": 11 }, { "weight": 1, "sprite": 14 } ],
+          "rotates": false
+        },
+        {
+          "id": [ "f_entertainment_center" ],
+          "fg": [ { "weight": 1, "sprite": 13 }, { "weight": 1, "sprite": 15 } ],
+          "rotates": false
+        },
+        {
+          "id": [ "wooden_barrel" ],
+          "fg": [ { "weight": 1, "sprite": 20 }, { "weight": 1, "sprite": 21 } ],
+          "rotates": false
+        },
+        { "id": "f_boulder_large", "fg": 24 },
+        { "id": "f_boulder_medium", "fg": 28 },
+        { "id": "f_boulder_small", "fg": 28 },
+        { "id": "rock", "fg": 26 },
+        { "id": "rock_flaking", "fg": 27 },
+        { "id": "rock_large", "fg": 25 },
+        { "id": [ "t_shrub" ], "fg": 5, "bg": 74, "rotates": false },
+        { "id": [ "unknown_item_GUN" ], "fg": 7, "rotates": false },
+        { "id": [ "npc_female" ], "fg": 6 },
+        { "id": [ "npc_male" ], "fg": 6 },
+        { "id": [ "player_female" ], "fg": 6 },
+        { "id": [ "player_male" ], "fg": 6 },
+        { "id": [ "withered" ], "fg": 3 },
+        {
+          "id": [ "electric_lantern_on", "electric_lantern", "atomic_lamp", "atomic_lamp_off" ],
+          "fg": 1,
+          "rotates": false
+        },
+        {
+          "id": [ "heavy_flashlight_on", "heavy_flashlight", "flashlight_on", "flashlight" ],
+          "fg": 19,
+          "rotates": false
+        },
+        {
+          "id": [ "mon_zombie_dog" ],
+          "fg": [ { "weight": 1, "sprite": 67 }, { "weight": 1, "sprite": 78 } ],
+          "rotates": false
+        },
+        { "id": [ "mon_dog" ], "fg": 80 },
+        {
+          "id": [ "mon_zombie" ],
+          "fg": [ { "weight": 1, "sprite": 23 }, { "weight": 1, "sprite": 34 } ],
+          "rotates": false
+        },
+        { "id": "mon_zombie_runner", "fg": 23, "rotates": false },
+        {
+          "id": [ "blood", "blood_tainted", "mutant_blood", "animal_blood", "fd_blood" ],
+          "fg": [
+            { "weight": 1, "sprite": 4 },
+            { "weight": 1, "sprite": 12 },
+            { "weight": 1, "sprite": 16 },
+            { "weight": 1, "sprite": 21 }
+          ],
+          "rotates": true
+        },
+        { "id": [ "corpse" ], "fg": 22, "rotates": false },
+        { "id": [ "corpse_bloody" ], "fg": 22, "rotates": false },
+        { "id": [ "unknown_item_CORPSE" ], "fg": 22, "rotates": false },
+        { "id": [ "unknown_item_TOOL" ], "fg": 56, "rotates": false },
+        { "id": [ "unknown_item_CONTAINER" ], "fg": 8, "rotates": false }
+      ]
+    },
+    { "file": "hack1.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": false, "color": "BLACK" } ] },
+    { "file": "hack2.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": true, "color": "WHITE" } ] },
+    { "file": "hack3.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": false, "color": "WHITE" } ] },
+    { "file": "hack4.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": true, "color": "BLACK" } ] },
+    { "file": "hack5.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": false, "color": "RED" } ] },
+    { "file": "hack6.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": false, "color": "GREEN" } ] },
+    { "file": "hack7.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": false, "color": "BLUE" } ] },
+    { "file": "hack8.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": false, "color": "CYAN" } ] },
+    { "file": "hack9.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": false, "color": "MAGENTA" } ] },
+    { "file": "hack10.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": false, "color": "YELLOW" } ] },
+    { "file": "hack11.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": true, "color": "RED" } ] },
+    { "file": "hack12.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": true, "color": "GREEN" } ] },
+    { "file": "hack13.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": true, "color": "BLUE" } ] },
+    { "file": "hack14.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": true, "color": "CYAN" } ] },
+    { "file": "hack15.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": true, "color": "MAGENTA" } ] },
+    { "file": "hack16.png", "tiles": [  ], "ascii": [ { "offset": 0, "bold": true, "color": "YELLOW" } ] }
+  ]
+}
